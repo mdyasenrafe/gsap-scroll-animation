@@ -21,7 +21,6 @@ const tl = gsap.timeline({
   },
 });
 
-// Timeline for 'This' and blue background
 tl.to(container, { backgroundColor: "blue", ease: "none" }).to(
   textThis,
   { autoAlpha: 0, duration: 1 },
